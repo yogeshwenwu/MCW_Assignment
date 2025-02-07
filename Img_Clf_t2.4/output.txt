@@ -1,0 +1,2 @@
+Current conda environment: env_py_3.10_torch_2.4
+golden retriever: 44.3%

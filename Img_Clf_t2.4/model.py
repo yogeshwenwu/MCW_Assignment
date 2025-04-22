@@ -3,7 +3,7 @@ from torchvision.models import resnet50, ResNet50_Weights
 from torchvision.io import read_file, decode_image
 
 # Read image as a byte tensor first
-img_bytes = read_file("./Dog_Breeds.jpg")
+img_bytes = read_file("/mnt/mydisk/yogesh/MCW_Assignment/Img_Clf_t2.4/Dog_Breeds.jpg")
 
 # Decode the image
 img = decode_image(img_bytes)
